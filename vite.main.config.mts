@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   plugins: [
-    react(), // ADD THIS PLUGIN
+    react(), // ADD THIS PLUGIN - CRITICAL FOR REACT
     {
       name: "restart",
       closeBundle() {
